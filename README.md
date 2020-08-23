@@ -7,6 +7,6 @@ def pangram(str):
 	return x<=set(str.lower()) #lower will change all input letters to lower case, set will remove duplicates
 s=input('enter string:')
 if(pangram(s)):
-	print('Given string is a pangram') #ascii_lowercase contains all the lower case alphabets
+	print('Given string is a pangram') #if the input string contains all the letters this statement will be printed.
 else:
 	print('Given string is not a pangram') #if the input string does not contain all the letters this stmt will be printed.
