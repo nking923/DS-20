@@ -1,0 +1,15 @@
+#Algorithm to print the grade obtained by a student.
+step1: START studentgrade
+step2: input n(no of subjects)
+step3: input the marks in each subject m1, m2, m3,...,mn
+step4: tot=m1+m2+..+mn
+		avg=tot/n
+step5: if avg>=90 grade=A+ print A+
+		if avg>=80 grade=A print A
+		if avg>=70 grade=B+ print B+
+		if avg>=60 grade=B print B
+		if avg>=50 grade=C print C
+		if avg>=40 grade=D print D
+		else
+		print F
+step6: END studentgrade
